@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="ventana" class="ventana">
+
+    </div>
+    <div class="header">
+        <div class="logo">
+
+        </div>
+        <div class="tittle">
+            <h1>proyecto yusef</h1>
+        </div>
+        <div id="menu" class="menu">
+
+        </div>
+        <div id="menufloat">
+            <h1>este es el menu</h1>
+            <div id="cerrarfloat"></div>
+        </div>
+    </div>
+    <div class="contenido">
+        <div id="yt" class="boton">
+            <h3>youtube</h3>
+            <img src="descarga.png" alt="">
+        </div>
+        <div id="ig" class="boton">
+            <h3>instagram</h3>
+            <img src="descarga.jpg" alt="">
+        </div>
+        <div id="wa" class="boton">
+            <h3>whatsapp</h3>
+            <img src="descarga (1).png" alt="">
+        </div>
+    </div>
+    <script>
+        const yt = document.getElementById('yt');
+        const ig = document.getElementById('ig');
+        const wa = document.getElementById('wa');
+        const ventana = document.getElementById('ventana');
+        const menu = document.getElementById('menu');
+        const float = document.getElementById('menufloat');
+        const cerrarFloat = document.getElementById('cerrarfloat');
+
+        menu.addEventListener("click", () => {
+            float.classList.add('active');
+        });
+        cerrarFloat.addEventListener("click", () => {
+            float.classList.remove('active');
+        });
+
+        yt.addEventListener("click", () => {
+            ventana.classList.add("active");
+
+            const cuadro = document.createElement('div');
+            cuadro.classList.add('cuadro');
+
+            const botonVentana = document.createElement('a');
+            botonVentana.href = 'https://www.youtube.com';
+            botonVentana.target = '_blank';
+            botonVentana.textContent = 'Ir a YouTube';
+            botonVentana.classList.add('enlace');
+
+            const botonCerrar = document.createElement('div');
+            botonCerrar.classList.add('cerrar');
+            botonCerrar.addEventListener("click", () => {
+                ventana.classList.remove("active");
+                cuadro.remove();
+            });
+
+            ventana.appendChild(cuadro);
+            cuadro.appendChild(botonVentana);
+            cuadro.appendChild(botonCerrar);
+        })
+        ig.addEventListener("click", () => {
+            ventana.classList.add("active");
+
+            const cuadro = document.createElement('div');
+            cuadro.classList.add('cuadro');
+
+            const botonVentana = document.createElement('a');
+            botonVentana.href = 'https://www.instagram.com';
+            botonVentana.target = '_blank';
+            botonVentana.textContent = 'Ir a Instagram';
+            botonVentana.classList.add('enlace');
+
+            const botonCerrar = document.createElement('div');
+            botonCerrar.classList.add('cerrar');
+            botonCerrar.addEventListener("click", () => {
+                ventana.classList.remove("active");
+                cuadro.remove();
+            });
+
+            ventana.appendChild(cuadro);
+            cuadro.appendChild(botonVentana);
+            cuadro.appendChild(botonCerrar);
+        })
+        wa.addEventListener("click", () => {
+            ventana.classList.add("active");
+
+            const cuadro = document.createElement('div');
+            cuadro.classList.add('cuadro');
+
+            const botonVentana = document.createElement('a');
+            botonVentana.href = 'https://www.whatsapp.com/?lang=es_LA';
+            botonVentana.target = '_blank';
+            botonVentana.textContent = 'Ir a whatsapp';
+            botonVentana.classList.add('enlace');
+
+            const botonCerrar = document.createElement('div');
+            botonCerrar.classList.add('cerrar');
+            botonCerrar.addEventListener("click", () => {
+                ventana.classList.remove("active");
+                cuadro.remove();
+            });
+
+            ventana.appendChild(cuadro);
+            cuadro.appendChild(botonVentana);
+            cuadro.appendChild(botonCerrar);
+        })
+    </script>
+</body>
+</html>
