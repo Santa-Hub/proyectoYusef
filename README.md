@@ -1,4 +1,4 @@
-*REQUERIMIENTOS:*
+**REQUERIMIENTOS:**
 1. Las tarjetas deben ser rojas
    - Se crea tarjeta 1
    - Se crea tarjeta 2
@@ -11,7 +11,8 @@
    - Debe abrir y cerrar
    - Mostrar información
 
-*ANALISIS:*
+**ANALISIS:**
+
 La página web que hemos desarrollado tiene como objetivo principal ofrecer enlaces directos a nuestras redes sociales y plataformas de contacto (YouTube, Instagram y WhatsApp). Aunque el diseño es sencillo y directo, con ello se busca facilitar la comunicación rápida y accesible para los usuarios. Aquí están algunos problemas que hemos identificado y cómo la página puede solucionarlos:
 
 1. Facilidad de Contacto:
@@ -31,7 +32,7 @@ La página web que hemos desarrollado tiene como objetivo principal ofrecer enla
 - Problema: Aunque el diseño minimalista puede parecer que falta información, a veces esto es visto como un problema.
 - Solución: La simplicidad de la página está pensada para mantener todo enfocado en lo esencial. Al tener solo los enlaces importantes, el usuario no se distrae y puede acceder de inmediato a lo que necesita.
 
-*ESTIMACION DE COSTOS:*
+**ESTIMACION DE COSTOS:**
 
 1. Desarrollo Web (Mejoras en Diseño y Funcionalidad):
 Costo estimado: $500 - $2,500 USD
@@ -54,7 +55,7 @@ Costo estimado: $50 - $200 USD por mes
 El mantenimiento incluye asegurarse de que el sitio esté funcionando correctamente y que se mantenga actualizado.
 
 
-*INFORME DE CALIDAD (Q.A.):*
+**INFORME DE CALIDAD (Q.A.):**
 Cumplimiento de Objetivos:
 1. Facilidad de Comunicación:
 Logro: Se cumplió con el objetivo de facilitar la comunicación directa con los usuarios a través de los enlaces a WhatsApp e Instagram. Los usuarios pueden ahora conectarse rápidamente con el proyecto, sin necesidad de navegar por múltiples plataformas.
