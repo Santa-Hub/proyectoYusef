@@ -72,10 +72,6 @@ Resultado: La centralización de los recursos facilita una experiencia de usuari
 Logro: El diseño minimalista de la página ha sido un éxito. Al enfocarnos en lo esencial, los usuarios encuentran rápidamente lo que buscan sin distracciones.
 Resultado: La página cumple con el principio de simplicidad, lo que garantiza que no haya elementos innecesarios, y los usuarios pueden acceder a la información sin complicaciones.
 
-4. Optimización para Dispositivos Móviles:
-Logro: La página se ha optimizado correctamente para dispositivos móviles, garantizando que los usuarios puedan acceder a los enlaces de manera rápida y sin problemas desde sus teléfonos.
-Resultado: La página mantiene su funcionalidad y diseño atractivo en diferentes tamaños de pantalla, lo que asegura una experiencia coherente para todos los usuarios.
-
-5. Accesibilidad a Redes Sociales y Medios:
+4. Accesibilidad a Redes Sociales y Medios:
 Logro: Se han integrado con éxito enlaces a YouTube e Instagram, mejorando la visibilidad del proyecto en estas plataformas.
 Resultado: Los usuarios ahora tienen un acceso directo a contenido adicional, lo que facilita el seguimiento y la interacción con el proyecto de forma efectiva.
